@@ -1,10 +1,9 @@
-import Link from "next/link";
+import "./globals.css";
 
 export default function Home() {
   return (
-    <div>
-      <Link href="/about">Перейти на страницу "О нас"</Link>
-      <h1>Привет, Next.js!</h1>
+    <div className="text-3xl font-bold text-blue-600">
+      Привет, TailwindCSS!
     </div>
   );
 }
